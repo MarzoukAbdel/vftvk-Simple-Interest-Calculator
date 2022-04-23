@@ -5,8 +5,9 @@ function compute()
 
  if((principal =="")||(principal<=0))//we check if the inpute is empty or < = 0
  {
+   document.getElementById("principal").focus(); 
     alert(" Please Enter a positive number");  
-    document.getElementById("principal").focus(); 
+   
  }
  else
  {
